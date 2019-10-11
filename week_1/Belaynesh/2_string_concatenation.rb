@@ -10,8 +10,9 @@ def concat(string1, string2)
 
 end
 
-p "abc".delete "c"
-p concat = ("abc"+"cat")
+#p "abc".delete "c"
+
+#p concat = ("abc"+"cat")
 
  def concat(str1, str2)
     str1 = "dog"
@@ -19,8 +20,20 @@ p concat = ("abc"+"cat")
     return str1 + str2
 
  end
- p concat = ("dog"+"cat")
+# p concat = ("dog"+"cat")
 
+def concated()
+    
+    
+    st1 = "boy"
+    st2 = "Yellow"
+    st2.gsub("y", "") 
+    return st1 + st2
+    
+
+end
+
+p concated 
 
 
     
