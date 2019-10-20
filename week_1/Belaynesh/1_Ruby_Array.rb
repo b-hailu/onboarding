@@ -7,10 +7,10 @@ def array_Method()
     ary.length
     ary[1...5]
     
-
-    
 end
-p array_Method()
+
+
+   puts array_Method()
 
 def print_name()
     name = "Belaynesh"
