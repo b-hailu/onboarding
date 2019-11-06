@@ -1,12 +1,12 @@
 def blackj()
-    int1 = 25 
-    int2 = 20
+    num1 = 25 
+    num2 = 20
 
-    if (int1 >= 0 && int2 <= 20 )
-        return 0
+    if (num1 > 25 && num2 > 20 )
+        num1 + num2
     else
-        puts " The number is working"
-        
+        puts " The condition is false so"
+    end  
 
 end    
 puts blackj
