@@ -4,11 +4,6 @@ class Book
         @title = title
         @author = author 
         @chapter =chapter
-        
-        
-        
-        
-
     end
     attr_accessor :title, :author, :chapter
     
@@ -32,7 +27,7 @@ my_liberary << science_book << spritual_book << information_tech_book << cooking
  
 my_liberary.each do |bookl|
     
-    puts puts " The book title is #{bookl.title} and the author is #{bookl.author} if interested read this chapter #{bookl.chapter}"
+    puts puts " The book title is #{bookl.title} and the author is #{bookl.author} if interested, read  chapter #{bookl.chapter}"
             
     
 end
